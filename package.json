@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Guhanb08/kudilapi/issues"
   },
-  "homepage": "https://github.com/Guhanb08/kudilapi#readme"
+  "homepage": "https://github.com/Guhanb08/kudilapi#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
