@@ -1,0 +1,57 @@
+[
+    {
+        "category": "Window",
+        "types": [
+            {
+                "type": "Velcro Fit",
+                "meshes": [
+                    {
+                        "name": "Fiberglass Mesh",
+                        "image": "img1.jpg",
+                        "price": 50
+                    },
+                    {
+                        "name": "Elite Fibreglass",
+                        "image": "img2.jpg",
+                        "price": 20
+                    },
+                    {
+                        "name": "Premium Fibreglass",
+                        "image": "img3.jpg",
+                        "price": 30
+                    },
+                    {
+                        "name": "Excel Fibreglass",
+                        "image": "img4.jpg",
+                        "price": 40
+                    }
+                ]
+            },
+            {
+                "type": "Silro Fit",
+                "meshes": [
+                    {
+                        "name": "Sm Mesh",
+                        "image": "img1.jpg",
+                        "price": 50
+                    },
+                    {
+                        "name": "Md Fibreglass",
+                        "image": "img2.jpg",
+                        "price": 20
+                    },
+                    {
+                        "name": "LG Fibreglass",
+                        "image": "img3.jpg",
+                        "price": 50
+                    },
+                    {
+                        "name": "XL Fibreglass",
+                        "image": "img4.jpg",
+                        "price": 30
+                    }
+                ]
+            }
+        ]
+    }
+]
