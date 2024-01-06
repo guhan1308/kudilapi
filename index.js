@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 app.post('/quotation', async (req, res) => {
     try {
         let quotationData = await pdf.pdfcreate(req.body);
-        if (quotationData.invoiceno) {
+        if (quotationData) {
             res.status(200).send({
                 data: quotationData
             })
