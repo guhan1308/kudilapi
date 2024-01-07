@@ -1,8 +1,64 @@
 var fs = require("fs");
 const { jsPDF } = require("jspdf");
 const imgData = fs.readFileSync(__dirname + "/assets/logo.png");
-const pricingjsonData = fs.readFileSync('pricing.json');
-const pricing = JSON.parse(pricingjsonData) || {};
+// const pricingjsonData = fs.readFileSync('./pricing.json');
+const pricing = [
+    {
+        "category": "Window",
+        "types": [
+            {
+                "type": "Velcro Fit",
+                "meshes": [
+                    {
+                        "name": "Fiberglass Mesh",
+                        "image": "img1.jpg",
+                        "price": 50
+                    },
+                    {
+                        "name": "Elite Fibreglass",
+                        "image": "img2.jpg",
+                        "price": 20
+                    },
+                    {
+                        "name": "Premium Fibreglass",
+                        "image": "img3.jpg",
+                        "price": 30
+                    },
+                    {
+                        "name": "Excel Fibreglass",
+                        "image": "img4.jpg",
+                        "price": 40
+                    }
+                ]
+            },
+            {
+                "type": "Silro Fit",
+                "meshes": [
+                    {
+                        "name": "Sm Mesh",
+                        "image": "img1.jpg",
+                        "price": 50
+                    },
+                    {
+                        "name": "Md Fibreglass",
+                        "image": "img2.jpg",
+                        "price": 20
+                    },
+                    {
+                        "name": "LG Fibreglass",
+                        "image": "img3.jpg",
+                        "price": 50
+                    },
+                    {
+                        "name": "XL Fibreglass",
+                        "image": "img4.jpg",
+                        "price": 30
+                    }
+                ]
+            }
+        ]
+    }
+];
 
 require('jspdf-autotable');
 require('./assets/rock');
@@ -113,11 +169,13 @@ function jsonupdate(newQuotation) {
         const database = JSON.parse(jsonData) || [];
         const lastEntry = database[database.length - 1];
         const currentId = lastEntry ? lastEntry.id : 0;
+        console.log('updatedJsonData' , currentId)
         const invoiceno = `KA${String(currentId + 1).padStart(4, '0')}`;
         const updatedQuotation = { id: currentId + 1, invoiceno: invoiceno, ...newQuotation, };
         database.push(updatedQuotation);
         const updatedJsonData = JSON.stringify(database, null, 2);
         fs.writeFileSync('data.json', updatedJsonData);
+        console.log('updatedJsonData' , updatedJsonData)
         return updatedQuotation;
 
     } catch (error) {
