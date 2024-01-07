@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/Guhanb08/kudilapi#readme",
   "dependencies": {
+    "aws-sdk": "^2.1531.0",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "jspdf": "^2.5.1",
     "jspdf-autotable": "^3.8.1"
