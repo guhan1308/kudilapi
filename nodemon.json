@@ -1,0 +1,4 @@
+{
+    "watch": ["pdf.js"],
+    "ext": "js, css"
+  }

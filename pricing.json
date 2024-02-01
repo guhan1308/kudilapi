@@ -6,49 +6,129 @@
                 "type": "Velcro Fit",
                 "meshes": [
                     {
-                        "name": "Fiberglass Mesh",
+                        "name": "Fibreglass Mesh",
                         "image": "img1.jpg",
-                        "price": 50
+                        "price": 45
                     },
                     {
                         "name": "Elite Fibreglass",
                         "image": "img2.jpg",
-                        "price": 20
+                        "price": 60
                     },
                     {
-                        "name": "Premium Fibreglass",
+                        "name": "Tuff Screen",
                         "image": "img3.jpg",
-                        "price": 30
+                        "price": 150
                     },
                     {
-                        "name": "Excel Fibreglass",
+                        "name": "Pet Screen",
                         "image": "img4.jpg",
-                        "price": 40
+                        "price": 167
+                    },
+                    {
+                        "name": "Solar Screen",
+                        "image": "img4.jpg",
+                        "price": 209
                     }
                 ]
             },
             {
-                "type": "Silro Fit",
+                "type": "Classic Window Fit (Door Type)",
                 "meshes": [
                     {
-                        "name": "Sm Mesh",
+                        "name": "SSvue",
                         "image": "img1.jpg",
-                        "price": 50
+                        "price": 240
                     },
                     {
-                        "name": "Md Fibreglass",
+                        "name": "Fibreglass",
                         "image": "img2.jpg",
-                        "price": 20
+                        "price": 170
                     },
                     {
-                        "name": "LG Fibreglass",
+                        "name": "Aluminium",
                         "image": "img3.jpg",
-                        "price": 50
+                        "price": 200
                     },
                     {
-                        "name": "XL Fibreglass",
+                        "name": "Stainless steel",
                         "image": "img4.jpg",
-                        "price": 30
+                        "price": 270
+                    }
+                ]
+            },
+            {
+                "type": "Glossy Roll Fit",
+                "meshes": [
+                    {
+                        "name": "Elite Fibreglass Mesh",
+                        "image": "img1.jpg",
+                        "price": 350
+                    },
+                    {
+                        "name": "Elite Fibreglass Mesh",
+                        "image": "img1.jpg",
+                        "price": 380
+                    }
+                ]
+            },
+            {
+                "type": "Crease Fit Ditto",
+                "meshes": [
+                    {
+                        "name": "Waterproof Mesh",
+                        "image": "img1.jpg",
+                        "price": 410
+                    },
+                    {
+                        "name": "Waterproof Mesh",
+                        "image": "img1.jpg",
+                        "price": 450
+                    }
+                ]
+            },
+            {
+                "type": "Trim Glide Fit",
+                "meshes": [
+                    {
+                        "name": "SSvue",
+                        "image": "img1.jpg",
+                        "price": 670
+                    },
+                    {
+                        "name": "Fiberglass Mesh",
+                        "image": "img1.jpg",
+                        "price": 625
+                    },
+                    {
+                        "name": "Elite Fibreglass",
+                        "image": "img1.jpg",
+                        "price": 635
+                    },
+                    {
+                        "name": "Aluminium Mesh",
+                        "image": "img1.jpg",
+                        "price": 667
+                    },
+                    {
+                        "name": "SS Mesh",
+                        "image": "img1.jpg",
+                        "price": 870
+                    },
+                    {
+                        "name": "BRONZE Mesh",
+                        "image": "img1.jpg",
+                        "price": 992
+                    },
+                    {
+                        "name": "Solar Screen",
+                        "image": "img1.jpg",
+                        "price": 785
+                    },
+                    {
+                        "name": "Pet Screen",
+                        "image": "img1.jpg",
+                        "price": 745
                     }
                 ]
             }
